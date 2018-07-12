@@ -15,23 +15,28 @@
 
 #backgroundjumbotron{
   background-color: blue;
-  background-image: url(../img/pingpong.jpg)
+  background-image: url(../img/tennistable.gif)
 }
 
 .h1{
-  color: black;
+  color: white;
 
 }
 
 .p1{
-  color: beige;
+  color: white;
   font-style: italic;
 
 }
 
 .jumbotron{
-  padding: 200px;
+  padding: 150px;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+}
+
+.side{
+  font-size: 15px;
+
 }
