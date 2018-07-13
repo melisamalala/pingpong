@@ -23,6 +23,7 @@ return numbersToBePingPonged;
 
 $(document).ready(function(){
    $("form#willitpong").submit(function(event){
+     $("#output").empty();
       event.preventDefault();
       var number = parseInt($("input#formnumber").val());
       pingPong(number);
