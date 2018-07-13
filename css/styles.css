@@ -5,31 +5,34 @@
     padding: 0px 10px;
     font-family: 'Oswald';font-size: 22px;
     color: #black;
+    text-align: center;
 }
 
 .mt-0 {
   margin-top: 0 !important;
+  margin-bottom: 0
 }
 
 .mb-0{
   margin-bottom: 0 !important;
+  margin-top: 0
 }
 
 #backgroundjumbotron{
-  background-color: blue;
-  background-image: url(../img/tennistable.gif)
+  background-color: #81c0a8;
+  height: 10px;
 }
 
 .h1{
-  color: white;
-  font-family: 'Oswald';font-size: 22px;
+  color: black;
+  font-family: 'Oswald';font-size: 40px;
 
 }
 
 .p1{
   color: white;
   font-style: italic;
-  font-family: 'Oswald';font-size: 22px;
+  font-family: 'Oswald';font-size: 20px;
 
 }
 
@@ -41,9 +44,10 @@
 }
 
 #headerPage{
-  color: white;
+  color: black;
   font-family: 'Oswald';font-size: 22px;
-  background-color: black;
+  background-color: #81c0a8;
+  margin-bottom: 0
 }
 
 .side{
@@ -54,11 +58,27 @@
   color: black;
 }
 
-#contentrow{
-  background: white; /* For browsers that do not support gradients */
-}
-
 #headjumbo{
   background-color: black;
-  background-image: url(../img/tech.jpg);
+  background-image: url(../img/joel.jpg);
+}
+
+#contentrow{
+  border-style: solid;
+  color: black;
+  background-color: #81c0a8;
+}
+
+#output{
+  font-family: 'Oswald';font-size: 22px;
+}
+
+
+#aboutping{
+background-color: #81c0a8;
+color: black;
+}
+
+.container{
+  margin-left: 0;
 }
