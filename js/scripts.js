@@ -17,19 +17,18 @@ function pingPong(number){
         numbersToBePingPonged.push(index);
       }
     }
-  }
-
+return numbersToBePingPonged;
+  };
 // User interface logic
 
 $(document).ready(function(){
-   $("form#willitpong").submit(function(){
+   $("form#willitpong").submit(function(event){
       event.preventDefault();
-      var number = parseInt($("input#number").val());
-
+      var number = parseInt($("input#formnumber").val());
       pingPong(number);
-       
-      numbersToBePingponged.forEach(function(number){
-         $("#output").append('<li>' + number + "</li>");
+
+      numbersToBePingPonged.forEach(function(number){
+         $("#output").append("<li>" + number + "</li>");
       });
    });
 });

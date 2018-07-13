@@ -12,15 +12,15 @@ I created an else if statement for pingpong, instead of appending the pong to th
 SPECIFICATIONS OF THE PROJECT:
 Backend Logic
 -----------------
-Firstly, I created a function called 'create_ping' and assign to it num. numList which is an empty array that is supposed to contain the return of the function, e.g when a user puts in a value, the value should result in either ping, pong or pingpong.
+Firstly, I created a function called 'PingPong' and assign to it num. numbersToBePingPonged which is an empty array that is supposed to contain the return of the function, e.g when a user puts in a value, the value should result in either ping, pong or pingpong.
 
-I then created a 'for' loop that increases the value of i, until it reaches the end of the user input num (defined in the front end). 'I' stops at each alteration and run three questions (booleans - true or false statements):
+I then created a 'for' loop that increases the value of the index, until it reaches the end of the user input num (defined in the front end). 'Index' stops at each alteration and run three questions (booleans - true or false statements):
 
 According to the instructions provided, the function should run as follows:
 
 1. If divided by 3, is there any balance? If yes, push Ping to numList.
 2. If divided by 5, is there any balance? If yes, push Pong to numList.
-3. If divided by 3 and 5, is there any balance? If yes, push Pingpong to numList.
+3. If divided by 3 and 5, or 15, is there any balance? If yes, push Pingpong to numList.
 
 The closing else statement declares that all numbers that do not fit the above requirements are to be returned as they are.
 
@@ -28,11 +28,11 @@ The closing else statement declares that all numbers that do not fit the above r
 User Logic
 ----------------
 
-Create a function that will ONLY run once all other elements of the website are loaded. Identify the form with the id "WillitPong" followed by a submit tag. "Event prevent default" will prevent the code from refreshing every time a user has filled in a value. Another important step is to ensure that the form is cleared EVERYTIME a button is pressed. This will be achieved using the .empty method.
+Create a function that will ONLY run once all other elements of the website are loaded. Identify the form with the id "willitpong" followed by a submit tag. "Event prevent default" will prevent the code from refreshing every time a user has filled in a value. Another important step is to ensure that the form is cleared EVERYTIME a button is pressed. This will be achieved using the .empty method.
 
 We then declare num. Num is given by the input method in our index.html file. Using 'parseInt', the data is translated into integers.
 
-The next step is to call the backend jS by declaring numList to be the function that was created above. After this is done, the aim is to 'append' the data from numList into an 'ordered list'. In some cases,  append function works better than htmt or text.
+The next step is to call the backend jS by declaring numList to be the function that was created above. After this is done, the aim is to 'append' the data from numList into an 'ordered list'.
 
 Finally, a text change is made when the function begins.
 
@@ -42,4 +42,4 @@ This project was styled using Bootstrap for a polished finish. Oswald font was u
 
 LICENSE:
 
-MELISSA MALALA
+2018 MELISSA MALALA

@@ -52,3 +52,8 @@
 .btn-primary{
   color: black;
 }
+
+#contentrow{
+  background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom right, red, yellow); /* Standard syntax (must be last) */
+}

@@ -6,10 +6,13 @@
   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- BOOTSRAP -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
   <!-- CSS -->
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animate.css">
 
 </head>
 <body>
@@ -20,13 +23,10 @@
     <p class = "p1"> Ping Pong is a fun game that you can play on this website! Give it a try below: </p>
   </div>
 </div>
-
-<!-- Side navigation -->
-
 <!-- Page content -->
 <div class="jumbotron mt-0">
   <div class="row" id="contentrow">
-    <div class="col-md-4 side">
+    <div class="col-md-2 side">
     <div class="sidebar">
       <h3>ABOUT PING PONG
         <br>
@@ -48,21 +48,21 @@
     </div>
     </div>
 
-    <div class="col-md-8">
+    <div class="col-md-10">
       <div class="main">
-      <h2>Let's Play!</h2>
+      <h2>Hello There, Let's Play!</h2>
       <h3>Rules:</h3>
-        <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+        <p>To start off, Ping Pong will count up to your number from 1 with the following exceptions:</p>
         <ol>
-          <li>Numbers divisible by 3 become "ping"!</li>
-          <li>Numbers divisible by 5 become "pong"!</li>
-          <li>Numbers divisible by 3 and 5 become "pingpong!"</li>
+          <li>The numbers that are divisible by 3 will become "ping"!</li>
+          <li>The numbers that are divisible by 5 will become "pong"!</li>
+          <li>The numbers that are divisible by 3 and 5 will become "pingpong!"</li>
         </ol>
         <!-- FORM -->
         <form id="willitpong">
             <label for="year"><strong>Enter A Number:</strong></label>
-            <input type="number" class="form-control" id="number">
-          <button class="btn btn-primary" id="addButton">Ping Pong! </button>
+            <input type="number" class="form-control" id="formnumber">
+          <button class="btn btn-primary" id="addButton" type="submit">Ping Pong! </button>
           </form>
       </div>
       <!-- RESULTS -->
@@ -74,7 +74,7 @@
 </div>
 </div>
   <div class="footer text-center" id="headerPage">
-         <h1>2018 | Melissa Malala </h1>
+         <h1><strong>2018 | Melissa Malala </strong></h1>
   </div>
 
 <!-- JAVASCRIPT -->
@@ -82,8 +82,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="/js/scripts.js">
+<script type="text/javascript" src="js/scripts.js">
 
+</script>
 
 </body>
 </html>
