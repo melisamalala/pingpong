@@ -9,7 +9,7 @@ Contents:
 In this project, JavaScript is used to create a loop that determines whether numbers are divisible by 3, 5 or 3 & 5 (both). Values that are entered and are not numbers are supposed to be deemed invalid. Once the user inputs their number, the result will return "ping", "pong" or pingpong.
 I created an else if statement for pingpong, instead of appending the pong to the ping in case it's divisible by both.
 
-
+SPECIFICATIONS OF THE PROJECT:
 Backend Logic
 -----------------
 Firstly, I created a function called 'create_ping' and assign to it num. numList which is an empty array that is supposed to contain the return of the function, e.g when a user puts in a value, the value should result in either ping, pong or pingpong.
@@ -39,3 +39,7 @@ Finally, a text change is made when the function begins.
 CSS
 ------------
 This project was styled using Bootstrap for a polished finish. Oswald font was used (Google Fonts) for a more elegant finish.
+
+LICENSE:
+
+MELISSA MALALA

@@ -1,41 +1,35 @@
-//backend
-function create_ping(num){
-var numList = [];
-  for (i=1; i<=num; i+=1){
-    if(i%3===0 && i%5===0){
-      numList.push("pingpong");
+// JavaScript business logic
+
+var numbersToBePingPonged = [];
+
+function pingPong(number){
+    for (var index = 1; index <= number; index +=1){
+      if(index % 15 === 0){
+        numbersToBePingPonged.push("pingpong");
       }
-    else if(i%3===0){
-      numList.push("Ping");
+      else if(index % 3 === 0){
+        numbersToBePingPonged.push("ping");
       }
-    else if(i%5===0){
-    numList.push("Pong");
+      else if(index % 5 === 0){
+        numbersToBePingPonged.push("pong");
+      }
+      else{
+        numbersToBePingPonged.push(index);
+      }
+    }
   }
 
-  else {
-    numList.push(i);
-  }
+// User interface logic
 
-  }
-  return numList;
-  }
-
-function countPing(numList){
-
-}
-
-$(document).ready(function() {
-    $("form#WillitPong").submit(function(event) {
+$(document).ready(function(){
+   $("form#willitpong").submit(function(){
       event.preventDefault();
-      $("ul#output").empty();
-      var num = parseInt($("input#pongs").val());
-      var numList=create_ping(num);
-      numList.forEach(function(item){
-        $("ul#output").append("<li>"+item+"</li>");
-        $("#gameBegin").html("<p>These are the results of your game. Did you guess everything right? Not so hard, is it? <br></p>");
+      var number = parseInt($("input#number").val());
+
+      pingPong(number);
+       
+      numbersToBePingponged.forEach(function(number){
+         $("#output").append('<li>' + number + "</li>");
       });
-
-
-  });
-
-  });
+   });
+});

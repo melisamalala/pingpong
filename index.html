@@ -26,32 +26,32 @@
 <!-- Page content -->
 <div class="jumbotron mt-0">
   <div class="row" id="contentrow">
-<div class="col-md-4 side">
-  <div class="sidebar">
-    <h3>About Ping Pong
-      <br>
-      <br>
-      Created by:
-      <br>
-      <em>Melissa Malala</em>
-      <br>
-      <br>
-      GitHub Username/URL:
-      <br>
-      melissamalala
-      <br>
-      <br>
-      Level 2 Test for:
-      <br>
-      Java</br>
-    </h3>
-  </div>
-</div>
+    <div class="col-md-4 side">
+    <div class="sidebar">
+      <h3>ABOUT PING PONG
+        <br>
+        <br>
+        Created by:
+        <br>
+        <em>Melissa Malala</em>
+        <br>
+        <br>
+        GitHub Username/URL:
+        <br>
+        <em>melissamalala</em>
+        <br>
+        <br>
+        Level 2 Test for:
+        <br>
+        <em>Java</em></br>
+      </h3>
+    </div>
+    </div>
 
-      <div class="col-md-8">
+    <div class="col-md-8">
       <div class="main">
-        <h2>Let's Play!</h2>
-        <h3>Rules:</h3>
+      <h2>Let's Play!</h2>
+      <h3>Rules:</h3>
         <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
         <ol>
           <li>Numbers divisible by 3 become "ping"!</li>
@@ -59,35 +59,29 @@
           <li>Numbers divisible by 3 and 5 become "pingpong!"</li>
         </ol>
         <!-- FORM -->
-        <form>
-      <div class="WillitPong">
+        <form id="willitpong">
             <label for="year"><strong>Enter A Number:</strong></label>
-            <input type="number" class="form-control" id="pongs">
-          </div>
-          <button class="btn btn-primary about animated pulse" id="addButton">Ping Pong!</button>
+            <input type="number" class="form-control" id="number">
+          <button class="btn btn-primary" id="addButton">Ping Pong! </button>
+          </form>
       </div>
-      <div class="col-md-4 middle">
-         <ul id="output"></ul>
-       </div>
-
-       <div class="col-md-4" id=gameBegin>
-         <h1>To Play The Game:</h1>
-         <p>Type in a number in the box provided to discover how many times you can divide by 3 and 5 or both!</p>
-        </div>
-        </form>
-
-      </div>
-
+      <!-- RESULTS -->
+    <ul id="output">
+    </ul>
     </div>
+  </div>
+
+</div>
 </div>
   <div class="footer text-center" id="headerPage">
          <h1>2018 | Melissa Malala </h1>
-       </div>
+  </div>
 
 <!-- JAVASCRIPT -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" href="/js/scripts.js">
 
 

@@ -49,7 +49,6 @@
   font-family: 'Oswald';font-size: 10px;
 
 }
-
-#gameBegin{
-  font-family: 'Oswald';font-size: 20px;
+.btn-primary{
+  color: black;
 }
