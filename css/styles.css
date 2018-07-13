@@ -1,8 +1,9 @@
 
 .main {
-    margin-left: 250px; /* Same width as the sidebar + left position in px */
+    margin-left: 300px; /* Same width as the sidebar + left position in px */
     font-size: 15px;
     padding: 0px 10px;
+    font-family: 'Oswald';font-size: 22px;
 }
 
 .mt-0 {
@@ -20,12 +21,14 @@
 
 .h1{
   color: white;
+  font-family: 'Oswald';font-size: 22px;
 
 }
 
 .p1{
   color: white;
   font-style: italic;
+  font-family: 'Oswald';font-size: 22px;
 
 }
 
@@ -36,7 +39,17 @@
   background-position: center;
 }
 
-.side{
-  font-size: 15px;
+#headerPage{
+  color: blue;
+  font-family: 'Oswald';font-size: 22px;
 
+}
+
+.side{
+  font-family: 'Oswald';font-size: 10px;
+
+}
+
+#gameBegin{
+  font-family: 'Oswald';font-size: 20px;
 }
