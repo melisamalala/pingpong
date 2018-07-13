@@ -21,11 +21,12 @@
 #backgroundjumbotron{
   background-color: #81c0a8;
   height: 10px;
+  background-image: url(../img/finally.jpg);
 }
 
 .h1{
-  color: black;
-  font-family: 'Oswald';font-size: 40px;
+  color: white;
+  font-family: 'Oswald';font-size: 60px;
 
 }
 
@@ -45,9 +46,10 @@
 
 #headerPage{
   color: black;
-  font-family: 'Oswald';font-size: 22px;
+  font-family: 'Oswald';font-size: 12px;
   background-color: #81c0a8;
-  margin-bottom: 0
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .side{
@@ -71,14 +73,34 @@
 
 #output{
   font-family: 'Oswald';font-size: 22px;
+  padding-left: 200px;
 }
 
 
 #aboutping{
 background-color: #81c0a8;
 color: black;
+font-size: 18px;
+padding-left: 40px;
+padding-top: 60px;
 }
 
 .container{
   margin-left: 0;
+
+}
+
+#abouthello {
+  padding-top: 60px;
+  padding-right: 80px;
+}
+
+#inventedpingpong {
+  font-family: "Oswald"; font-size: 15px;
+  background-color: #81c0a8;
+  margin-bottom: 0;
+}
+
+#footer1{
+  color: white;
 }
